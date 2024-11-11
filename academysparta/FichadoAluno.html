@@ -1,0 +1,73 @@
+
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="EstiloFichadoAlunos.css">
+    <title>Ficha do Aluno</title>
+
+</head>
+
+<body>
+    <header>ACADEMIA SPARTA</header>
+  
+    <nav id="fachada">
+        <a  href="CadastrodeAlunos.html">CADASTRO DE ALUNOS</a>
+        <a href="index.html">TELA INICIAL</a>
+    </nav>
+
+    <div id="fichadoaluno">FICHA DO ALUNO</div>
+
+    <form action="/pagina-processadados-do-form" method="post">
+
+        <fieldset>
+            <legend><p>Aluno</p></legend>
+            <label for="nome">Nome do Aluno (a):</label>
+              <input type="text" required="required" name="text" pattern="[a-z\s]+$"/>
+            <label for="data_nascimento"> Data de Nascimento:</label>
+              <input type="date" minlength= "11"id: "data_nascimento"/>
+            <label for="cpf">CPF:</label>
+              <input type="number" minlength="11"id:"cpf"/>
+            <label for="telefone">Telefone:</label>
+              <input type="number" minlength="11"id:"telefone"/>
+            <label for="celular">Celular:</label>
+              <input type="number" minlength="11"id:"celular"/>
+            <label for="text">Email:</label>
+              <input type="email" lang="21"id:"email"/>
+                        </label>
+          </fieldset>
+
+   <fieldset>
+
+   <legend><p>Ficha de Treino</p></legend>
+<ul for="Treino A">Treino A:</ul>
+    <li></li>
+<ul for="Treino B">Treino B:</ul>
+    <li></li>
+<ul for="Treino C">Treino C:</ul>
+    <li></li>
+<ul for="Treino D">Treino D:</ul>
+    <li></li>
+
+    
+  </fieldset>
+
+  <fieldset>
+    <legend><p>Aviso</p></legend>
+    <label for="msg">Data da próxima Avaliação Física:</label>
+    <textarea name="mensagem" cols="60" rows="6"></textarea>
+  </fieldset>
+</form>   
+<img src="ACADEMIA.png"> 
+        alt text="EXERCITE-SE"
+        width=“900”
+        height=“800”
+</body>
+<footer>
+    Criado por:
+    EQUIPE DE DESENVOLVIMENTO WEB
+    JACKSON ANDRADE / ANTHONY PETERSON
+</footer>
+
+</html>

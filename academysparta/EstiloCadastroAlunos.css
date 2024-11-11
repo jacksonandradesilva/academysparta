@@ -1,0 +1,79 @@
+body{
+    background-image: linear-gradient(to right,rgb(20,147,220),rgb(17,54,71));
+}
+
+header{
+    color:black;
+    text-align: center;
+    font-size: 50px;
+    border: 2px solid black;
+    background-image: linear-gradient(to right,rgb(20,147,220),rgb(17,54,71));
+   
+}
+
+footer {
+        background-color: #6d77df;
+        color: white;
+        padding: 0rem;
+        text-align: center;
+        position: fixed;
+        width: 100%;
+        bottom: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        border: 1px solid black;
+    }
+    title{
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    }
+    nav{
+        color: rgb(7, 129, 146);
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        font-weight:100;
+        padding: 0rem;
+       
+    }
+    #fachada{
+        color: rgb(72,209,204);
+    }
+    nav{
+        color: rgb(72,209,204);
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        border: 2px solid black;
+        background-image: linear-gradient(to right,rgb(205,147,220),rgb(17,54,71));
+       
+
+    }
+
+    #fachada{
+        color: rgb(72,209,204);
+    }
+    #cadastro{
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 25px;
+        
+
+    }
+    p{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 25px;
+    }
+
+
+
+
+   
+  
+
+
+fieldset{
+    border: 3px solid black;
+
+}
+
+    
+    
